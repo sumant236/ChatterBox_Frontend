@@ -1,0 +1,13 @@
+.scrollableFeed::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollableFeed::-moz-scrollbar {
+  display: none;
+}
+
+.scrollableFeed {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-color: transparent transparent;
+}
